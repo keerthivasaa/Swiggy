@@ -3,7 +3,6 @@ import { View, Text, Image, TouchableWithoutFeedback } from 'react-native';
 
 import styles from './styles';
 import { Album } from '../../types';
-import { useNavigation } from '@react-navigation/native';
 
 export type AlbumProps = {
     album: Album,

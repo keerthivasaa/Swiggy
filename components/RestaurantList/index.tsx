@@ -13,7 +13,7 @@ const RestaurantList = () => {
         <View>
             <FlatList 
                 data={restaurantDetails.songs}
-                renderItem={({ item }) => <RestaurantListItem song={item} /> }
+                renderItem={({ item }) => <RestaurantListItem restList={item} /> }
                 keyExtractor= {( item ) => item.id}
             />
         </View>

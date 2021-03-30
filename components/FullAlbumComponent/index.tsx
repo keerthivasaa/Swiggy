@@ -3,7 +3,6 @@ import { StyleSheet, Text, View } from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
 import AlbumCategory from '../AlbumCategory';
 import albumCategories from '../../data/albumCategories';
-import PocketFullAlbumComponent from '../PocketFullAlbumComponent';
 
 export default function FullAlbumComponent() {
     return (

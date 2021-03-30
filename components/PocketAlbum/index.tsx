@@ -1,9 +1,8 @@
 import React from 'react';
-import { View, Text, Image, TouchableWithoutFeedback } from 'react-native';
+import { View, Image } from 'react-native';
 
 import styles from './styles';
 import { Album } from '../../types';
-import { useNavigation } from '@react-navigation/native';
 
 export type PocketAlbumProps = {
     album: Album,

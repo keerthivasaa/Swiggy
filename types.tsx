@@ -23,7 +23,7 @@ export type Album = {
   imageUri: string;
 };
 
-export type Song = {
+export type RestList = {
   id: string,
   imageUri: string,
   hotelName: string;
