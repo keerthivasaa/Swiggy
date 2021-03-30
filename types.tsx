@@ -4,14 +4,35 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Swiggy: undefined;
+  Search: undefined;
+  Cart: undefined;
+  Account: undefined;
 };
 
 export type TabOneParamList = {
-  TabOneScreen: undefined;
+  HomeScreen: undefined;
 };
 
 export type TabTwoParamList = {
   TabTwoScreen: undefined;
 };
+
+export type Album = {
+  id: string;
+  imageUri: string;
+};
+
+export type Song = {
+  id: string,
+  imageUri: string,
+  hotelName: string;
+  item: string;
+  address: string,
+  rating: number,
+  kilometers: number;
+  deliveryTime: number;
+  offers: number;
+  coupons: string;
+}
+
